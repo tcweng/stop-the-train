@@ -92,6 +92,7 @@ public class PlayerControl : MonoBehaviour
             {
                 // Things that need to be perform when lose.
                 loseAftermath.SetActive(true);
+                screenUI.SetActive(false);
                 Time.timeScale = 0;
             }
         }
